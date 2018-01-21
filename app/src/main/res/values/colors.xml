@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c212c</color>
+    <color name="colorPrimaryDark">#1c212c</color>
+    <color name="colorAccent">#757575</color>
+    <color name="my_statusbar_color">#1c212c</color>
+    <color name = "bg">#1c212c</color>
+    <color name="white">#fff</color>
+    <color name="blue">#008cff</color>
+    <color name="red">#E64A19</color>
+</resources>

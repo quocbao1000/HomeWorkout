@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemLogin"
+            android:icon="@drawable/i26"
+            android:title="Login" />
+        <item
+            android:id="@+id/itemLevel"
+            android:icon="@drawable/lv2"
+            android:title="Your level" />
+        <item
+            android:id="@+id/itemRank"
+            android:icon="@drawable/ic_public"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/itemLogout"
+            android:icon="@drawable/i28"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

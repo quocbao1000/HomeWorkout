@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.edu.hcmut.phatdo.finalday">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/i24"
+        android:label="Home Workout"
+        android:roundIcon="@drawable/i24"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Home Workout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Singup"
+            android:label="Sign up" />
+        <activity
+            android:name=".ViewVideoActivity"
+            android:label="Home Workout" />
+        <activity
+            android:name=".FriendList"
+            android:label="Friend List" />
+        <activity
+            android:name=".ChooseFriend"
+            android:label="Challenge friends" />
+        <activity
+            android:name=".Level"
+            android:label="Your level" />
+        <activity android:name=".RankingActivity"></activity>
+    </application>
+
+</manifest>
